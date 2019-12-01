@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Ladek Zdroj tourism</title>
+  </head>
+<body>
+<!-- Header -->
+  <header>
+    <div class="header" id="headerlook">
+      <h1 id="textcenter">
+        <img id="logoposition" class="img-fluid col" src="Pictures/logo LZ.svg" alt="logo">
+         Municipality Ladek Zdroj
+      </h1>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="home.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" id="active" href="Tourist.html">Information</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Ski resorts</a>
+        </li>
+        <li class="nav-item ">
+          <a class=" nav-link " href="#">Accomodation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Restaurants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="winter.html">Winter holidays</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="summer.html">Summer holidays</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resorts and Spa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Ladek</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<br>
+
+  <main>
+    <div class="container" id="newsbox">
+      <div class="container  p-3 mb-3 border-bottom">
+      <p class="textbox" style="font-size:1.25em;"> Ladek Zdroj Commune welcomes its visitors. On our website you will
+        find information about entertainment and recreation opportunities in the area
+         of our commune. Ladek Commune is the oldest health resort in Poland with a huge base
+          of health and beauty treatments. We encourage you to familiarize yourself with the
+          offer of our services. </p>
+    </div>
+    <div class="container p-3">
+      <div class="row">
+        <a href="summer.html">
+         <div class="col-lg-6">
+           <img class="img-fluid col h-100" src="Pictures/ladek_summer.jpg" alt="logo">
+           <div class="centered"> <h3>Summer holidays </h3></div>
+           </a>
+           </div>
+        <a href="winter.html">
+         <div class="col-lg-6">
+           <img class="img-fluid col h-100" src="Pictures/ladek_winter.jpg" alt="logo">
+             <div class="centered"><h3>Winter holidays </h3></div>
+           </a>
+         </div>
+
+           <div class="container p-3 mb-4 border-bottom">
+           <p class="textbox "> Situated in a mountain range, the Ladek Zdroj Commune offers
+              many different attractions for active recreation. In winter, the ski slopes and
+              cross-country ski trails are waiting for adventure-loving skiers. In summer,
+              visitors can admire the unique mountain scenery and take advantage of many cycling
+              routes and many other attractions.
+            Check the variety of our possibilities and you will not be disappointed!</p>
+         </div>
+         <div class="row">
+           <a href="#">
+            <div class="col-lg-12">
+              <img class="img-fluid col w-100" src="Pictures/ladek_spa.jpg" alt="logo">
+              <div class="centered"> <h3>Resort </h3></div>
+              </a>
+              </div>
+              <div class="container p-3">
+              <p class="textbox "> The historical richness of our spa has overshadowed
+                many places in the region and country. Being the oldest health resort in
+                Poland, Ladek can boast 800 years of history together with many
+                world-famous personalities who have benefited from the services of our health
+                resort. Ladek offers a rich database of health and regeneration services and
+                beauty services. Ladek offers treatments in close proximity to several health
+                houses located close to each other. Relaxation in the resort is accompanied by
+                beautiful park buildings, peace and quiet. An ideal place to relax from the
+                city.</p>
+            </div>
+  </div>
+
+
+  </main>
+<br>
+<div class="container">
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+</div>
+<br>
+<footer>
+  <div class="container-fluid bg-dark text-white">
+    <div class="h-adr">
+    <br>
+    <div class="row "> <p class="mx-auto p-locality"> Ladek Zdroj </p></div>
+    <div class="row "> <p class="mx-auto p-street-address"> Main Square 31 </p></div>
+    <div class="row "> <p class="mx-auto p-postal-code"> 57-540 </p></div>
+  </div>
+    <div class="row "> <p class="mx-auto"> Tel: 74 81 17 850 </p></div>
+    <div class="row "> <p class="mx-auto"> <a href="#"> Ladek@ladek.pl </a></p></div>
+
+    <br>
+
+    <div class="social d-flex justify-content-center">
+                <a href="#" class="fa fa-facebook mx-2"></a>
+                <a href="#" class="fa fa-instagram mx-2 "></a>
+                <a href="#" class="fa fa-youtube mx-2"></a>
+            </div>
+
+      </div>
+</footer>
+</body>
+
+</html>

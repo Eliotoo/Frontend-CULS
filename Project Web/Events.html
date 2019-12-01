@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css'><link rel="stylesheet" href="./calendarstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Events in Ladek Zdroj</title>
+  </head>
+<body>
+<!-- Header -->
+  <header>
+    <div class="header" id="headerlook">
+      <h1 id="textcenter">
+        <img id="logoposition" class="img-fluid col" src="Pictures/logo LZ.svg" alt="logo">
+         Municipality Ladek Zdroj
+      </h1>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="home.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link"  href="municipality.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="active" href="Events.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="investments.html">Investment offers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About Municipality</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<br>
+<main>
+  <div class="container bg-white">
+    <div class="row news shadow border-bottom p-4 mb-4 bg-white">
+      <a href="#">
+      <div class="col-lg-4">
+        <img class="img-fluid col" src="Pictures/ladek_jazz.jpg" alt="logo">
+        </a>
+      </div>
+      <div class="col-lg-8 textbox">
+       <a href="#" class="brief"> <h4 class="">Blackie and La Quicka in Jazz Evening!</h4> </a>
+       <br>
+        A great duo from South America comes to Ladek to warm up our audience and give a concert.
+         The concert will take place in the city library at 19:00. Tickets can be purchased in the
+         city's cultural centre or booked online. Hurry up, the number of seats is limited!  <a href="#"> Read more <a/>
+      </div>
+    </div>
+    <div class="row news shadow p-4 mb-4 bg-white">
+      <a href="#">
+      <div class="col-lg-4">
+        <img class="img-fluid col" src="Pictures/ladek_theater.jpg" alt="logo">
+        </a>
+      </div>
+      <div class="col-lg-8 textbox">
+       <a href="#" class="brief"> <h4 class="">Swam Lakein Ladek </h4> </a>
+       <br>
+        A great theatrical event performed by world-class ballet masters will take place in our community.
+         Swan Lake will be performed in the city theatre by the most famous Warsaw group and for
+          the first time we will be able to see it in the air. The performance will take place in
+           the city theatre. Tickets can be purchased online or in the theatre. <a href="#"> Read more <a/>
+      </div>
+    </div>
+      <br>
+      <div class="row news shadow p-4 mb-4 bg-white">
+        <a href="#">
+        <div class="col-lg-4">
+          <img class="img-fluid col" src="Pictures/ladek_chess.jpg" alt="logo">
+          </a>
+        </div>
+        <div class="col-lg-8 textbox">
+         <a href="#" class="brief"> <h4 class=""> Ladek chess club meeting! </h4> </a>
+          <br>
+          The Ladek chess club continues the cycle of meetings. Come, play with us and improve your
+           chess skills under the supervision of our masters. We invite everyone of all ages and levels
+            of advancement. <a href="#"> Read more <a/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container mx-auto">
+    <div class="row">
+    <div class="cal-modal">
+      <h3>UPCOMING EVENTS</h3>
+      <div id="calendar">
+        <div class="placeholder"></div>
+        <div class="calendar-events">
+        </div>
+      </div>
+    </div>
+    </div>
+  <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/flatpickr'></script><script  src="./script.js"></script>
+  </div>
+</div>
+
+<div class="container">
+<ul class="pagination justify-content-center" style="margin:20px 0">
+  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+  <li class="page-item"><a class="page-link" href="#">2</a></li>
+  <li class="page-item"><a class="page-link" href="#">3</a></li>
+  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+</ul>
+</div>
+  </main>
+
+  <footer>
+    <div class="container-fluid bg-dark text-white">
+      <div class="h-adr">
+      <br>
+      <div class="row "> <p class="mx-auto p-locality"> Ladek Zdroj </p></div>
+      <div class="row "> <p class="mx-auto p-street-address"> Main Square 31 </p></div>
+      <div class="row "> <p class="mx-auto p-postal-code"> 57-540 </p></div>
+    </div>
+      <div class="row "> <p class="mx-auto"> Tel: 74 81 17 850 </p></div>
+      <div class="row "> <p class="mx-auto"> <a href="#"> Ladek@ladek.pl </a></p></div>
+
+      <br>
+
+      <div class="social d-flex justify-content-center">
+                  <a href="#" class="fa fa-facebook mx-2"></a>
+                  <a href="#" class="fa fa-instagram mx-2 "></a>
+                  <a href="#" class="fa fa-youtube mx-2"></a>
+              </div>
+
+        </div>
+  </footer>
+</body>
+
+</html>

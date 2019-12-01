@@ -1,0 +1,105 @@
+body {
+  background-color:#f9f9f9;
+}
+
+#headerlook {
+    background-color: #b9bbb6;
+    border:solid;
+}
+#logoposition {
+  width:120px;
+  height:120px;
+  position:relative;
+  top: 5px;
+  left:-50px;
+
+}
+#textcenter {
+  text-align: center;
+  padding: 15px;
+}
+#navid {
+        background-color: #b9bbb6;
+        border-bottom: solid;
+}
+
+#homebox {
+  background-color:inherit;
+  border:solid 1px #dfdfdf;
+
+}
+
+#newsbox {
+  background-color:white;
+  border-left:1px solid #dfdfdf;
+  border-right:1px solid #dfdfdf;
+  border-top:1px solid #dfdfdf;
+
+}
+#footerlook {
+  background-color:#545454;
+
+}
+
+#active  {
+  color:white;
+}
+
+
+.textbox {
+  text-indent: 2em;
+}
+
+.news {
+  background-color: inherit;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+a:link.brief, a:visited.brief {
+  color: black;
+  padding: 4px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover.brief, a:active.brief {
+  color:#939393;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
